@@ -6,7 +6,7 @@ para esta máquina e não é uma dependência obrigatória do projeto.
 
 ## Arquitetura da Aplicação
 
-<!-- mermaid-checked: no \n, no em-dash/en-dash, no {} in labels, subgraphs are id["label"], arrows are -->|"label"|, all subgraphs closed by end, ids unique -->
+<!-- mermaid-checked: no \n, no em-dash/en-dash, no {} in labels, subgraphs are id["label"], arrows are -->
 ~~~mermaid
 flowchart TD
     subgraph Client["Camada de Cliente"]
@@ -70,7 +70,7 @@ não usa API externa, broker de mensagens, cache ou persistência em arquivos.
 
 ## Relações entre Componentes
 
-<!-- mermaid-checked: no \n, no em-dash/en-dash, no {} in labels, subgraphs are id["label"], arrows are -->|"label"|, all subgraphs closed by end, ids unique -->
+<!-- mermaid-checked: no \n, no em-dash/en-dash, no {} in labels, subgraphs are id["label"], arrows are -->
 ~~~mermaid
 flowchart LR
     subgraph PresentationLayer["Apresentação"]
